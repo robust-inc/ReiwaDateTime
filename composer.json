@@ -1,0 +1,23 @@
+{
+    "name": "robust-inc/reiwa-date-time",
+    "type": "library",
+    "description": "DateTimeの継承クラス。ローカライズ出力に新元号「令和」に対応しました。",
+    "keywords": ["date","元号","令和"],
+    "authors": [
+        {
+            "name": "yoshiyuki ohde",
+            "email": "y_ohde@robust-inc.com"
+        }
+    ],
+    "license": "MIT",
+    "homepage": "https://www.robust-inc.com/",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "RobustInc\\ReiwaDateTime\\": "src/"
+        }
+    },
+    "bin": [
+      "now"
+    ]
+}
