@@ -1,9 +1,10 @@
 ## インストール
 
-> user $ composer require robust-inc/csv2Sql
+> user $ composer require robust-inc/reiwa-date-time
 
 ## サンプル実行(システム日付のローカライズ)
 > $ ./vendor/bin/now
+
 > $ ./vendor/bin/now 2019-05-01
 
 ## 使い方
